@@ -177,8 +177,6 @@ header {
     position: fixed;
     top: 0;
     right: -20rem;
-    z-index: 99;
-    opacity: .9;
     transition: all 1s;
 }
 
@@ -390,7 +388,9 @@ header {
     margin-bottom: 2rem;
 }
 
-.btn {
+.card-info button {
+    width: 12rem;
+    height: 3.5rem;
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
     background: linear-gradient(to right, #a044ff, #6a3093);
@@ -402,15 +402,11 @@ header {
     box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
 }
 
-.card-info button {
-    width: 12rem;
-    height: 3.5rem;
-}
-
 .card:hover .card-info {
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
+<<<<<<< HEAD
 }
 
 .sessao-contato {
@@ -573,4 +569,6 @@ header {
     padding: 1rem;
     cursor: pointer;
     grid-column: 2;
+=======
+>>>>>>> parent of 07488a0 (:up: form contato)
 }
